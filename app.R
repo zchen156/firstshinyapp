@@ -1,4 +1,6 @@
 library(shiny)
+# https://zchen156.shinyapps.io/firstshinyapp/
+# https://github.com/zchen156/firstshinyapp
 
 ui <- fluidPage(
   selectInput("dataset", label = "Dataset", choices = ls("package:datasets")),
